@@ -20,43 +20,84 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <div class="logo">
+    <header>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <li>
+                        <a href="index.html">
+                            <img src="images/laughEmojiLogo.png">
+                        </a>
+                    </li>
+                </div>
                 <li>
-                    <a href="index.html">
-                        <img src="images/laughEmojilLogo.png">
-                    </a>
+                    <a href="http://www.laughfactory.com/">laughfactory</a>
                 </li>
-            </div>
-            <li>
-                <a href="http://www.laughfactory.com/">laughfactory</a>
-            </li>
-            <li>
-                <a href="https://short-funny.com">short-funny</a>
-            </li>
-            <li>
-                <a href="https://9gag.com/funny">9gag</a>
-            </li>
-        </ul>
-    </nav>
+                <li>
+                    <a href="https://short-funny.com">short-funny</a>
+                </li>
+                <li>
+                    <a href="https://9gag.com/funny">9gag</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="content">
         <div class="content-container">
+            <!--Joke1-->
             <div class="content-item">
-                <p>"Why can't a nose be 12 inches long?"</p>
+                <p class="custom-cursor" id="joke1">"Why can't a nose be 12 inches long?"</p>
             </div>
             <div class="content-item">
-                <p class="punchline" style="display: none">Because then it would be a foot."</p>
+                <p id="punchline1" class="custom-cursor">"Because then it would be a foot."</p>
             </div>
             <div class="content-item">
-                <button>
+                <button id="punchline-button1">
                     Punchline
                 </button>
             </div>
-            <!--
-                "I was going to tell a time-traveling joke, but you guys didn't like it."
-                "When does a joke become a dad joke? When it becomes apparent."
--->
+            <div class="content-item">
+                <button id="next-button1">
+                    Next
+                </button>
+            </div>
+
+            <!--Joke2-->
+            <div class="content-item">
+                <p class="custom-cursor" id="joke2">"I was going to tell a time-traveling joke."</p>
+            </div>
+            <div class="content-item">
+                <p id="punchline2" class="custom-cursor">"But you guys didn't like it."</p>
+            </div>
+            <div class="content-item">
+                <button id="punchline-button2">
+                    Punchline
+                </button>
+            </div>
+            <div class="content-item">
+                <button id="next-button2">
+                    Next
+                </button>
+            </div>
+
+            <!--Joke3-->
+            <div class="content-item">
+                <p class="custom-cursor" id="joke3">"When does a joke become a dad joke?"</p>
+            </div>
+            <div class="content-item">
+                <p id="punchline3" class="custom-cursor">"When it becomes apparent."</p>
+            </div>
+            <div class="content-item">
+                <button id="punchline-button3">
+                    Punchline
+                </button>
+            </div>
+            <div class="content-item">
+                <button id="next-button3">
+                    Next
+                </button>
+            </div>
         </div>
     </div>
 
@@ -65,9 +106,13 @@
             <br>
             NMED 3720-A
             <br>
-            Jokes Source: https://www.countryliving.com/life/a27452412/best-dad-jokes/
+            <a href="https://www.countryliving.com/life/a27452412/best-dad-jokes/">Jokes Source</a>
             <br>
-            Logo Source: https://www.stickpng.com/img/icons-logos-emojis/emojis/laughing-emoji
+            <a href="https://www.stickpng.com/img/icons-logos-emojis/emojis/laughing-emoji">Logo Source</a>
         </p>
     </footer>
+
+    <script src="js/script1.js"></script>
 </body>
+
+</html>

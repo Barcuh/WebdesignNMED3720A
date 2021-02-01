@@ -2,6 +2,8 @@ html,
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: #ff9;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .logo {
@@ -15,7 +17,7 @@ body {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     overflow: hidden;
     /*    background-color: red;*/
@@ -62,6 +64,59 @@ nav ul li a:hover:not(.active) {
     font-size: 42px;
 }
 
+.custom-cursor {
+    cursor: url(../images/mouseImage2.png), auto;
+}
+
+
+#joke1 {
+    display: inherit;
+}
+
+#punchline1 {
+    display: none;
+}
+
+#punchline-button1 {}
+
+#next-button1 {
+    display: none;
+}
+
+
+#joke2 {
+    display: none;
+}
+
+#punchline2 {
+    display: none;
+}
+
+#punchline-button2 {
+    display: none;
+}
+
+#next-button2 {
+    display: none;
+}
+
+
+#joke3 {
+    display: none;
+}
+
+#punchline3 {
+    display: none;
+}
+
+#punchline-button3 {
+    display: none;
+}
+
+#next-button3 {
+    display: none;
+}
+
 .content-item button {
     width: 40%;
     padding: 10px;
@@ -78,4 +133,10 @@ nav ul li a:hover:not(.active) {
 footer p {
     text-align: center;
     font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 15px;
+    color: green;
 }
